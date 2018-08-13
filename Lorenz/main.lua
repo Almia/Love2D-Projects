@@ -131,7 +131,7 @@ function love.update(dt)
         love.graphics.print("S: "..base.a, 16, 16)
         love.graphics.print("R: "..base.b, 16, 32)
         love.graphics.print("B: "..base.c, 16, 48)
-        love.graphics.print("Press Q to generate again", 16, 48)
+        love.graphics.print("Press Q to generate again", 16, 64)
         lg.setColor(255, 255, 255)
     end)
 end
